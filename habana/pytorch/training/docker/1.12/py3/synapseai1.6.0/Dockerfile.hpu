@@ -8,7 +8,7 @@ ARG PYTHON=python3.8
 ARG PYTHON_PIP=python3-pip
 ARG PIP=pip3.8
 
-ENV PT_VERSION=1.11
+ENV PT_VERSION=1.12
 
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
